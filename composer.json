@@ -1,5 +1,5 @@
 {
-    "name": "todstoychev/response-normalizer",
+    "name": "todstoychev/request-normalizer",
     "description": "Symfony 4 Http Foundation Response normalizer. Suitable to use for logging.",
     "type": "library",
     "require": {
