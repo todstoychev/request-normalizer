@@ -1,0 +1,32 @@
+{
+    "name": "todstoychev/response-normalizer",
+    "description": "Symfony 4 Http Foundation Response normalizer. Suitable to use for logging.",
+    "type": "library",
+    "require": {
+        "php": ">=7.1",
+        "symfony/http-foundation": ">=3.0",
+        "symfony/serializer": ">=3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.5.x-dev",
+        "symfony/var-dumper": ">=3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Todor Todorov",
+            "email": "todstoychev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Todstoychev\\RequestNormalizer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Todstoychev\\RequestNormalizer\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
